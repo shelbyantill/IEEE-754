@@ -6,9 +6,8 @@ package CSC4101Assignment2;
  */
 public class Convertor {
     public static void main(String[]args){
-        IEEE754(.25);
-//        System.out.println("0 01111111 10000000000000000000000");
-//        System.out.println("0 01111111111 1000000000000000000000000000000000000000000000000000");
+        IEEE754(16.64);
+
     }
     
     public static void IEEE754(double d){
